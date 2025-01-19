@@ -1,0 +1,158 @@
+/* Global Styles */
+body {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+  background-color: #FFF8E8; /* Light cream background */
+  color: #674636; /* Main text color */
+  line-height: 1.6;
+}
+
+/* Wrapper to center and limit content width */
+.wrapper {
+  max-width: 900px; /* Constrain overall page width */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #674636; /* Updated text color */
+  text-align: center;
+}
+
+/* About Section */
+.about-section {
+  max-width: 800px; /* Slightly narrower About Me section */
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #674636; /* Updated text color */
+  line-height: 1.8;
+}
+
+/* Projects Section */
+.projects-section {
+  max-width: 900px; /* Constrain the width of the Projects section */
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.projects-container {
+  display: flex;
+  overflow-x: auto; /* Horizontally scrollable container */
+  gap: 20px;
+  padding: 20px 20px; /* Add padding for smoother edges */
+  scroll-padding-left: 20px; /* Smooth scroll behavior on left */
+}
+
+.project-card {
+  min-width: 320px; /* Slightly wider project cards */
+  border-radius: 16px; /* More circular corners for project cards */
+  padding: 15px;
+  background: #F7EED3; /* Soft beige background for cards */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.project-card h3 a {
+  text-decoration: none; /* Remove link underline */
+  color: #674636; /* Match with other text on the page */
+  transition: color 0.3s ease;
+}
+
+.project-card h3 a:hover {
+  color: #AAB396; /* Subtle hover effect */
+}
+
+.project-card p {
+  font-style: italic;
+  color: #674636; /* Updated text color */
+  margin-bottom: 10px;
+}
+
+.project-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+/* Experience Section */
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.experience-card {
+  max-width: 600px; /* Reduce width for tighter layout */
+  margin: 0 auto; /* Center align experience cards */
+  border-radius: 16px; /* More circular corners for experience cards */
+  padding: 15px;
+  background: #F7EED3; /* Soft beige background for cards */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.date-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #AAB396; /* Updated secondary text color */
+}
+
+.title-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-company h3,
+.title-company h4 {
+  margin: 0;
+}
+
+
+/* Header Navigation Bar */
+header nav {
+  display: flex;
+  justify-content: flex-start; /* Keep buttons on the left */
+  align-items: center;
+  padding: 30px 20px; /* Thinner banner */
+  background-color: #F7EED3; /* Updated banner background color */
+  font-size: 1.5rem; /* Larger font for text links */
+}
+
+header nav a {
+  text-decoration: none; /* Remove underline */
+  color: #674636; /* Updated text color */
+  margin-right: 15px; /* Add small space between each button */
+  padding: 0 5px; /* Add slight padding inside the buttons */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+header nav a:hover {
+  color: #AAB396; /* Highlight text on hover */
+}
+
+/* Header Title Section */
+header .title-container {
+  text-align: center;
+  margin: 30px auto; /* Adjust margin to balance with thinner banner */
+}
+
+header h1 {
+  font-size: 2.8rem; /* Slightly larger for prominence */
+  color: #674636; /* Updated text color */
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #674636; /* Updated text color */
+}
