@@ -5,11 +5,11 @@ function About() {
     <section id="about" className="about-section">
       <h2>About Me</h2>
       <p>
-        I am a passionate and detail-oriented Software Developer with experience in Cybersecurity, Quality Assurance, 
-        and full-stack development. My approach combines creative problem-solving with a commitment to writing clean, 
-        efficient, and scalable code. Over the years, I have honed my skills in creating user-friendly web applications, 
-        collaborating with cross-functional teams, and delivering projects on time. 
-        My background in Cybersecurity gives me a unique perspective on secure coding practices and system vulnerabilities.
+      Hi! I'm Megan, a Software Engineering student at the University of Guelph. Through my previous co-op experiences, 
+      I’ve developed a strong foundation in Cybersecurity and Quality Assurance. I’m passionate about software development 
+      and have hands-on experience in full-stack development. Currently, I’m focused on building my portfolio to showcase 
+      my projects and skills. Outside of coding, I enjoy trying new foods, hanging out with friends, and playing badminton. 
+      I’m always excited to learn, grow, and take on new challenges.
       </p>
     </section>
   );
